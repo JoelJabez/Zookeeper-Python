@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # the following line reads the list from the input, do not modify it, please
+    # split() helps to convert your input into a list
+    prices = input().split()
+
+    # please work with the list 'prices' here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6062#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 22 Jun 2023 13:29:46 UTC"
+record: -1
+submission_language: python3

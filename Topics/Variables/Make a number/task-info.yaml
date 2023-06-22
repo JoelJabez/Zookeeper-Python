@@ -1,0 +1,14 @@
+type: code
+custom_name: Make a number!
+files:
+- name: main.py
+  visible: true
+  highlight_level: NONE
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5863#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 22 Jun 2023 11:18:38 UTC"
+record: -1
+submission_language: python3

@@ -1,0 +1,17 @@
+type: code
+custom_name: Don't want to delete? Comment!
+files:
+- name: main.py
+  visible: true
+  text: |-
+    print(1 + 2 + 3 + 6)
+    print(1 + 3 + 3)
+    print(1 + 2 + 3)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5951#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 21 Jun 2023 11:49:02 UTC"
+record: -1
+submission_language: python3
