@@ -324,5 +324,9 @@ files:
         Zookeeper('zookeeper.zookeeper').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8818#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Sat, 24 Jun 2023 08:02:13 UTC"
 record: -1

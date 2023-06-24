@@ -1,12 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-- text: Square root
-- text: Raising to power
-- text: The remainder of division
-- text: Unary minus
-- text: Integer division
-- text: Division
 files:
 - name: main.py
   visible: true

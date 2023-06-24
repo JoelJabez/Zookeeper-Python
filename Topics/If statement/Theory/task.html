@@ -1,0 +1,35 @@
+<h2>If statement</h2>
+<div class="step-text">
+<p>There are situations when your program needs to execute some piece of code only if a particular condition is met. It's possible to set that condition in Python and, in this topic, we're gonna learn how!</p>
+<h5 id="simple-if-statement" style="text-align: center;">Simple if statement</h5>
+<p>So, in Python, a piece of code that should be executed only under some condition should be placed within the body of an <strong>if statement</strong>. The pattern is the same as in the English language: first comes the keyword <strong><code class="language-python">if</code></strong> , then a condition, and then a list of expressions to execute. The condition is always a <strong>Boolean expression</strong>, that is, its value equals either <code class="language-python">True</code> or <code class="language-python">False</code>. Here is one example of how the code with a conditional expression should look like:</p>
+<pre><code class="language-python">biscuits = 17
+if biscuits &gt;= 5:
+    print("It's time for tea!")</code></pre>
+<p>Note that the condition ends with a colon and a new line starts with an <strong>indentation</strong>. Usually, 4 spaces are used to designate each level of indentation. A piece of code in which all lines are on the same level of indentation is called a <strong>block of code</strong>. In Python, <em>only </em>indentation is used to separate different blocks of code, hence, only indentation shows which lines of code are supposed to be executed when the <code class="language-python">if</code> statement is satisfied, and which ones should be executed <em>independently </em>of the <code class="language-python">if</code> statement. Check out the following example:</p>
+<pre><code class="language-python">if biscuits &gt;= 5:
+    print("It's time for tea!")
+    print("What tea do you prefer?")
+print("What about some chocolate?")</code></pre>
+<p>In this example, the line <code class="language-python">"It's time for tea!"</code>, as well as <code class="language-python">"What tea do you prefer?"</code>, will be printed only if there are 5 or more biscuits. The line <code class="language-python">"What about some chocolate?"</code> will be printed regardless of the number of biscuits.</p>
+<p>An <code class="language-python">if</code><strong> </strong>statement is executed only if its condition holds (the Boolean value is <code class="language-python">True</code>), otherwise, it's skipped.</p>
+<p>Boolean values basically make it clear whether a piece of code needs to be executed or not. Since comparisons result in <code class="language-python">bool</code>, it's always a good idea to use them as a condition.</p>
+<p></p><div class="alert alert-warning">There is one pitfall, though. You should not confuse the comparison operator for equality <code class="language-python">==</code> with the assignment operator <code class="language-python">=</code>. Only the former provides for a proper condition. Try to avoid this common mistake in your code.</div><p></p>
+<h5 id="nested-if-statement" style="text-align: center;">Nested if statement</h5>
+<p>Sometimes a condition happens to be too complicated for a simple <code class="language-python">if</code> statement. In this case,  you can use so-called <strong>nested </strong><code class="language-python">if</code> statements. The more <code class="language-python">if</code> statements are nested, the more complex your code gets, which is usually not a good thing. However, this doesn't mean that you need to avoid nested <code class="language-python">if</code> statements at all costs. Let's take a look at the code below:</p>
+<pre><code class="language-python">rainbow = "red, orange, yellow, green, blue, indigo, violet"
+warm_colors = "red, yellow, orange"
+my_color = "orange"
+
+if my_color in rainbow:
+    print("Wow, your color is in the rainbow!")
+    if my_color in warm_colors:
+        print("Oh, by the way, it's a warm color.")</code></pre>
+<p>The example above illustrates a nested <code class="language-python">if</code> statement. If the variable <code class="language-python">my_color</code> is a string that contains the name of a color from the rainbow,  we enter the body of the first <code class="language-python">if</code><strong> </strong>statement. First, we print the message and then check if our color belongs to the warm colors. The membership operator <code class="language-python">in</code> simply shows whether <code class="language-python">my_color</code> is a substring of the respective string, <code class="language-python">rainbow</code> or <code class="language-python">warm_colors</code>. Just like arithmetic comparisons, it returns a boolean value.</p>
+<p>Here is what we will see in our case:</p>
+<pre><code class="language-no-highlight">Wow, your color is in the rainbow!
+Oh, by the way, it's a warm color.</code></pre>
+<p>When it comes to nested <code class="language-python">if</code> statements, proper indentation is crucial, so do not forget to indent each statement that starts with the <code class="language-python">if</code> keyword.</p>
+<h5 id="summary">Summary</h5>
+<p>To sum up, in this topic, we've learned how to write and nest conditions in Python with if-statements. </p>
+</div>

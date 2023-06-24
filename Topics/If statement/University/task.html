@@ -1,0 +1,23 @@
+<h2>University</h2>
+<div class="step-text">
+<p>Here's a piece of code that tells you what university the course is read in. </p>
+<pre><code class="language-python">harvard = "linguistics, physics, programming, fine arts"
+stanford = "biology, classics, geophysics, music"
+
+arts = "linguistics, fine arts, classics, music"
+sciences = "physics, programming, biology, geophysics"
+
+major = "..."
+if major in harvard:
+    if major in arts:
+        print("This is an arts program at Harvard")
+    if major in sciences:
+        print("This is a sciences program at Harvard")
+if major in stanford:
+    if major in arts:
+        print("This is an arts program at Stanford")
+    if major in sciences:
+        print("This is a sciences program at Stanford")
+ </code></pre>
+<p>What will be the result if <code class="language-python">major = "biology"</code>?</p>
+</div>

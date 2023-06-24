@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The while loop statement is written before the body of the loop.
+- text: "Iterations are over, when the while loop statement becomes true."
+- text: An infinite loop is usually a logical mistake.
+- text: <code>while True</code> statement always starts an infinite loop and can only
+    be stopped manually or by using additional statements.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5942#comment
+status: Solved
+record: -1
+local_check: false

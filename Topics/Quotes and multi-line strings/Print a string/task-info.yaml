@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-- text: print('that's cool')
-- text: print("some 'boring' string")
-- text: print('letter \'q\' is my favourite")
-- text: print("these are my friend's cats")
-- text: print("\"canoodle" is a real word!")
+is_multiple_choice: false
 files:
 - name: main.py
   visible: true
